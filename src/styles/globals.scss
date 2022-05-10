@@ -1,0 +1,79 @@
+/*
+***
+* GLOBAL STYLE
+***
+* styles/global.scss
+* styles for global and theme
+***
+*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700&amp;subset=latin");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,700&amp;subset=latin");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap");
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,500,600|Nunito+Sans:400");
+@font-face {
+  font-family: "AvenirNext-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/26301410506.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AvenirNext-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "AvenirNext-DemiBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Arial.ttf") format("truetype");
+}
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(221 7 78/var(--tw-text-opacity))
+}
+
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 7 78/var(--tw-bg-opacity));
+}
+
+.bg-green-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 7 78/var(--tw-bg-opacity));
+}
+
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(233 4 102/var(--tw-text-opacity));
+}
+
+.font-heading {
+  font-family: Raleway, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.h-128 {
+  height: 32rem;
+}
